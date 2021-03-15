@@ -1,2 +1,6 @@
 <h1>Appointment#new</h1>
 <p>Find me in app/views/appointment/new.html.erb</p>
+
+<%= form_with model: @user do |form| %>
+  <%= form.text_field :date, data: { provide: 'datepicker' } %>
+<% end %>
