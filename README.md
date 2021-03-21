@@ -27,11 +27,19 @@ Install bundler using `gem install bundler`. After installation, run `bundle ins
 If not already installed, install `yarn` and run `yarn install`
 
 **Step 4**
+Set up your database.
+```
+$ createuser -P -d community_clothing_outreach
+(password: community_clothing_outreach)
+$ rake db:create
+```
+
+**Step 5**
 
 Spin up your rails server (`rails s`)
 
 (Optional) - to enable hotreloading, run `bin/webpack-dev-server`
 
-**Step 5**
+**Step 6**
 
 Happy Coding!
