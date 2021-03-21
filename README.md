@@ -18,7 +18,7 @@ Make sury to switch to Ruby 3 if that's not the default installed (`rvm install 
 
 **Step 2**
 
-(Set up postgress)[https://www.postgresql.org/download/]
+(https://www.postgresql.org/download/)[Install and set up postgres]
 
 **Step 3**
 
