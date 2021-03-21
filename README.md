@@ -12,7 +12,7 @@ Appointment management system
 Install ruby and rails (you can use [RVM](https://rvm.io/rvm/install) or any other version manager). 
 
 ```
-\curl -sSL https://get.rvm.io | bash -s stable --rails
+$ \curl -sSL https://get.rvm.io | bash -s stable --rails
 ```
 Make sury to switch to Ruby 3 if that's not the default installed (`rvm install 3.0.0` and `rvm use 3.0.0`)
 
@@ -32,6 +32,7 @@ Set up your database.
 $ createuser -P -d community_clothing_outreach
 (password: community_clothing_outreach)
 $ rake db:create
+$ rake db:migrate
 ```
 
 **Step 5**
